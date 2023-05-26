@@ -1,0 +1,498 @@
+{
+  "title": "My awesome page",
+  "blocks": [
+    {
+      "id": "demo-95ae3062c0a0464e9d0b5d066b81ab29",
+      "component": { "type": "section", "options": { "maxWidth": 1200 } },
+      "children": [
+        {
+          "component": {
+            "type": "box"
+          },
+          "id": "demo-1be8c122f55547059e1d5ce8f605e6d7",
+          "children": [
+            {
+              "id": "demo-eca28e959d9d4b81ba81dfca2b0f9c1a",
+              "component": {
+                "type": "text",
+                "options": { "text": "My cool page!" }
+              },
+              "responsiveStyles": {
+                "large": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "alignItems": "stretch",
+                  "flexShrink": "0",
+                  "position": "relative",
+                  "marginTop": "-1.65625px",
+                  "textAlign": "center",
+                  "lineHeight": "normal",
+                  "height": "auto",
+                  "fontSize": "58px",
+                  "color": "rgba(255, 0, 255, 1)"
+                },
+                "medium": {
+                  "marginTop": "1.34375px",
+                  "textAlign": "center",
+                  "fontSize": "54px"
+                },
+                "small": { "fontSize": "31px" }
+              }
+            },
+            {
+              "id": "demo-e69f374bd8724c13bdef09fa51b42a4e",
+              "component": {
+                "type": "text",
+                "options": {
+                  "text": "Some more great things to elaborate on that wonderful things you have to tell your audience"
+                }
+              },
+              "responsiveStyles": {
+                "large": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "alignItems": "stretch",
+                  "flexShrink": "0",
+                  "position": "relative",
+                  "marginTop": "29.59375px",
+                  "textAlign": "center",
+                  "lineHeight": "normal",
+                  "height": "auto",
+                  "fontSize": "21px",
+                  "color": "rgba(255, 255, 255, 1)",
+                  "opacity": "1"
+                },
+                "medium": { "textAlign": "center", "marginTop": "34.59375px" },
+                "small": { "fontSize": "15px", "marginTop": "24.59375px" }
+              }
+            }
+          ],
+          "responsiveStyles": {
+            "large": {
+              "display": "flex",
+              "flexDirection": "column",
+              "alignItems": "stretch",
+              "position": "relative",
+              "flexShrink": "0",
+              "boxSizing": "border-box",
+              "marginTop": "auto",
+              "marginBottom": "auto",
+              "paddingBottom": "17px",
+              "paddingTop": "17px",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "maxWidth": "700px"
+            },
+            "medium": { "paddingBottom": "49px" }
+          }
+        }
+      ],
+      "responsiveStyles": {
+        "large": {
+          "color": "red",
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "stretch",
+          "position": "relative",
+          "flexShrink": "0",
+          "boxSizing": "border-box",
+          "marginTop": "0px",
+          "paddingLeft": "20px",
+          "paddingRight": "20px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100vw",
+          "marginLeft": "calc(50% - 50vw)",
+          "backgroundImage": "url(https://media.istockphoto.com/id/1035676256/photo/background-of-galaxy-and-stars.jpg?s=170667a&w=0&k=20&c=MSaguPRl2wMiqdu8bbvJyRvXx9TnHBsQQRWVobp4krA=)",
+          "backgroundRepeat": "no-repeat",
+          "backgroundPosition": "center",
+          "backgroundSize": "cover",
+          "height": "700px"
+        },
+        "medium": { "height": "500px" },
+        "small": { "height": "350px", "color": "red" }
+      }
+    },
+    {
+      "id": "demo-897b9c0928c843f8b2d9e9aaf1f292b4",
+      "component": { "type": "section", "options": { "maxWidth": 1200 } },
+      "children": [
+        {
+          "id": "demo-ccaa4145178b408a9ff962cca1522ddd",
+          "component": {
+            "type": "columns",
+            "options": {
+              "columns": [
+                {
+                  "blocks": [
+                    {
+                      "id": "demo-aa6fc3b145794a0ba6ee3d86e93d84de",
+                      "component": {
+                        "type": "image",
+                        "options": {
+                          "image": "https://img.freepik.com/free-vector/realistic-neon-lights-background_52683-59889.jpg",
+                          "backgroundPosition": "center",
+                          "backgroundSize": "cover",
+                          "aspectRatio": 0.7004048582995948,
+                          "lazy": false,
+                          "sizes": "(max-width: 638px) 94vw, (max-width: 998px) 96vw, 42vw"
+                        }
+                      },
+                      "responsiveStyles": {
+                        "large": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "stretch",
+                          "flexShrink": "0",
+                          "position": "relative",
+                          "marginTop": "-2.5px",
+                          "textAlign": "center",
+                          "lineHeight": "normal",
+                          "height": "auto"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "blocks": [
+                    {
+                      "id": "demo-17746b1dc3944ab8bb90513ffa131998",
+                      "children": [
+                        {
+                          "id": "demo-d8256bd00a9f43559698ea82009c4473",
+                          "component": {
+                            "type": "text",
+                            "options": {
+                              "text": "Something Great to Say"
+                            }
+                          },
+                          "responsiveStyles": {
+                            "large": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "stretch",
+                              "flexShrink": "0",
+                              "position": "relative",
+                              "marginTop": "-1.65625px",
+                              "textAlign": "center",
+                              "lineHeight": "normal",
+                              "height": "auto",
+                              "fontSize": "33px"
+                            },
+                            "medium": {
+                              "marginTop": "29.34375px",
+                              "textAlign": "center"
+                            },
+                            "small": { "fontSize": "25px" }
+                          }
+                        },
+                        {
+                          "id": "demo-37786ac5ecfe49878fb9ed2ad63f6003",
+                          "component": {
+                            "type": "text",
+                            "options": {
+                              "text": "Some more great things to elaborate on that wonderful things you have to tell your audience"
+                            }
+                          },
+                          "responsiveStyles": {
+                            "large": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "stretch",
+                              "flexShrink": "0",
+                              "position": "relative",
+                              "marginTop": "25.59375px",
+                              "textAlign": "center",
+                              "lineHeight": "normal",
+                              "height": "auto",
+                              "fontSize": "17px",
+                              "color": "rgba(86, 86, 86, 1)"
+                            },
+                            "medium": { "textAlign": "center" },
+                            "small": { "fontSize": "15px" }
+                          }
+                        },
+                        {
+                          "id": "demo-2350b47fd92e45ecab978d0736f04146",
+                          "component": {
+                            "type": "button",
+                            "options": { "text": "Let's go" }
+                          },
+                          "responsiveStyles": {
+                            "large": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "stretch",
+                              "position": "relative",
+                              "flexShrink": "0",
+                              "boxSizing": "border-box",
+                              "marginTop": "26px",
+                              "appearance": "none",
+                              "paddingTop": "15px",
+                              "paddingBottom": "15px",
+                              "paddingLeft": "31px",
+                              "paddingRight": "31px",
+                              "backgroundColor": "rgba(50, 50, 50, 1)",
+                              "color": "white",
+                              "borderRadius": "4px",
+                              "textAlign": "center",
+                              "marginLeft": "auto",
+                              "marginRight": "auto",
+                              "cursor": "pointer"
+                            },
+                            "medium": {
+                              "marginLeft": "auto",
+                              "marginRight": "auto"
+                            }
+                          }
+                        }
+                      ],
+                      "responsiveStyles": {
+                        "large": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "stretch",
+                          "position": "relative",
+                          "flexShrink": "0",
+                          "boxSizing": "border-box",
+                          "marginTop": "auto",
+                          "marginBottom": "auto",
+                          "paddingBottom": "16px"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "space": 42,
+              "stackColumnsAt": "tablet",
+              "reverseColumnsWhenStacked": false
+            }
+          },
+          "responsiveStyles": {
+            "large": {
+              "display": "flex",
+              "flexDirection": "column",
+              "alignItems": "stretch",
+              "position": "relative",
+              "flexShrink": "0",
+              "boxSizing": "border-box",
+              "marginTop": "2.34375px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px"
+            }
+          }
+        }
+      ],
+      "responsiveStyles": {
+        "large": {
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "stretch",
+          "position": "relative",
+          "flexShrink": "0",
+          "boxSizing": "border-box",
+          "marginTop": "0px",
+          "paddingLeft": "20px",
+          "paddingRight": "20px",
+          "paddingTop": "50px",
+          "paddingBottom": "50px",
+          "width": "100vw",
+          "marginLeft": "calc(50% - 50vw)"
+        }
+      }
+    },
+    {
+      "id": "demo-e76d3c5b3a1f4e6191dddc6087308d99",
+      "component": { "type": "section", "options": { "maxWidth": 1200 } },
+      "children": [
+        {
+          "id": "demo-c0d62ff39ef04853a51fd9c4fb9773c5",
+          "component": {
+            "type": "columns",
+            "options": {
+              "columns": [
+                {
+                  "blocks": [
+                    {
+                      "id": "demo-770f5cf7cea74124bc02958e57d7eab1",
+                      "children": [
+                        {
+                          "id": "demo-6135330ea474450a9d72c58db453f98c",
+                          "component": {
+                            "type": "text",
+                            "options": {
+                              "text": "Something Great to Say"
+                            }
+                          },
+                          "responsiveStyles": {
+                            "large": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "stretch",
+                              "flexShrink": "0",
+                              "position": "relative",
+                              "marginTop": "-1.65625px",
+                              "textAlign": "center",
+                              "lineHeight": "normal",
+                              "height": "auto",
+                              "fontSize": "33px"
+                            },
+                            "medium": {
+                              "marginTop": "29.34375px",
+                              "textAlign": "center"
+                            },
+                            "small": { "fontSize": "25px" }
+                          }
+                        },
+                        {
+                          "id": "demo-276c2e4e6c484287a92e064fcfcdd870",
+                          "component": {
+                            "type": "text",
+                            "options": {
+                              "text": "Some more great things to elaborate on that wonderful things you have to tell your audience"
+                            }
+                          },
+                          "responsiveStyles": {
+                            "large": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "stretch",
+                              "flexShrink": "0",
+                              "position": "relative",
+                              "marginTop": "25.59375px",
+                              "textAlign": "center",
+                              "lineHeight": "normal",
+                              "height": "auto",
+                              "fontSize": "17px",
+                              "color": "rgba(86, 86, 86, 1)"
+                            },
+                            "medium": { "textAlign": "center" },
+                            "small": { "fontSize": "15px" }
+                          }
+                        },
+                        {
+                          "id": "demo-0ecb2060419e4478aaa62a25edcf9165",
+                          "component": {
+                            "type": "button",
+                            "options": { "text": "Let's go" }
+                          },
+                          "responsiveStyles": {
+                            "large": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "stretch",
+                              "position": "relative",
+                              "flexShrink": "0",
+                              "boxSizing": "border-box",
+                              "marginTop": "26px",
+                              "appearance": "none",
+                              "paddingTop": "15px",
+                              "paddingBottom": "15px",
+                              "paddingLeft": "31px",
+                              "paddingRight": "31px",
+                              "backgroundColor": "rgba(50, 50, 50, 1)",
+                              "color": "white",
+                              "borderRadius": "4px",
+                              "textAlign": "center",
+                              "marginLeft": "auto",
+                              "marginRight": "auto",
+                              "cursor": "pointer"
+                            },
+                            "medium": {
+                              "marginLeft": "auto",
+                              "marginRight": "auto"
+                            }
+                          }
+                        }
+                      ],
+                      "responsiveStyles": {
+                        "large": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "stretch",
+                          "position": "relative",
+                          "flexShrink": "0",
+                          "boxSizing": "border-box",
+                          "marginTop": "auto",
+                          "marginBottom": "auto",
+                          "paddingBottom": "16px"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "blocks": [
+                    {
+                      "id": "demo-5a2cf7cfd50b45d5be3008c68840caec",
+                      "component": {
+                        "type": "image",
+                        "options": {
+                          "image": "https://images.unsplash.com/photo-1590621819878-3fa04495626c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFydHdvcmt8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+                          "backgroundPosition": "center",
+                          "backgroundSize": "cover",
+                          "aspectRatio": 0.7004048582995948,
+                          "lazy": true,
+                          "sizes": "(max-width: 638px) 94vw, (max-width: 998px) 96vw, 42vw"
+                        }
+                      },
+                      "responsiveStyles": {
+                        "large": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "stretch",
+                          "flexShrink": "0",
+                          "position": "relative",
+                          "marginTop": "-2.5px",
+                          "textAlign": "center",
+                          "lineHeight": "normal",
+                          "height": "auto"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "space": 42,
+              "stackColumnsAt": "tablet",
+              "reverseColumnsWhenStacked": true
+            }
+          },
+          "responsiveStyles": {
+            "large": {
+              "display": "flex",
+              "flexDirection": "column",
+              "alignItems": "stretch",
+              "position": "relative",
+              "flexShrink": "0",
+              "boxSizing": "border-box",
+              "marginTop": "2.34375px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px"
+            }
+          }
+        }
+      ],
+      "responsiveStyles": {
+        "large": {
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "stretch",
+          "position": "relative",
+          "flexShrink": "0",
+          "boxSizing": "border-box",
+          "marginTop": "0px",
+          "paddingLeft": "20px",
+          "paddingRight": "20px",
+          "paddingTop": "50px",
+          "paddingBottom": "50px",
+          "width": "100vw",
+          "marginLeft": "calc(50% - 50vw)"
+        }
+      }
+    }
+  ],
+  "url": "/"
+}
