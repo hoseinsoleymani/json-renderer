@@ -20,7 +20,7 @@ bash
 pnpm dev
 
 
-This will start the server and open the application in your default browser at http://localhost:3000.
+This will start the server and open the application in your default browser at http://127.0.0.1:5173.
 
 ## Testing
 
