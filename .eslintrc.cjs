@@ -18,6 +18,15 @@ module.exports = init({
     ],
     "global-require": 0,
     "@typescript-eslint/no-unsafe-enum-comparison": "off",
-    "no-let": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-pascal-case": "off",
+    "max-lines-per-function": "off",
+    "import/extensions": [
+      "error",
+      "always",
+      { ts: "never", tsx: "never", json: "always" },
+    ],
+    "import/no-cycle": "off",
   },
 });

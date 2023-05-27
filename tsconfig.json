@@ -6,7 +6,11 @@
       "DOM.Iterable",
       "ESNext"
     ],
+    "paths": {
+      "./testing": ["./src/libs/test-utils/index.ts"]
+    },
     "module": "ESNext",
+    "types": ["vitest/globals", "vitest-dom/extend-expect"],
     "skipLibCheck": true,
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -25,7 +29,7 @@
   "include": [
     "src/**/*",
     "./vite.config.ts"
-  ],
+, "testing"  ],
   "references": [
     {
       "path": "./tsconfig.node.json"

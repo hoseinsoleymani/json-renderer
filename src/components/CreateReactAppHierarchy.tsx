@@ -1,17 +1,13 @@
-import type { ReactAppData } from "../models";
-import { CreateComponentFromJson } from "../utils/CreateComponentFromJson";
+import type { IBlock } from ".";
+import { BlockTree } from "./BlockTree";
+
+interface CreateReactAppHierarchyProps {
+  blocks: IBlock[];
+}
 
 export const CreateReactAppHierarchy = ({
-  title,
   blocks,
-  url,
-}: ReactAppData) => {
-  const components = CreateComponentFromJson({ blocks });
+}: CreateReactAppHierarchyProps) => {
+  const components = BlockTree({ blocks });
   return <div>{components}</div>;
-
-  // ========================================
-
-  // return blocks.map((block) => (
-  //   <CreateComponentFromJson key={block.id} block={block} />
-  // ));
 };
