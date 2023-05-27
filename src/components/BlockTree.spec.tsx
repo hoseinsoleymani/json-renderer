@@ -9,55 +9,52 @@ import {
   text,
   textFactory,
 } from "../../testing/factories";
+import type { ImageProps } from "../ui";
 import { SEO } from ".";
 import { BlockTree } from "./BlockTree";
 
-it("should render text component", () => {
+it("should render Text component", () => {
   render(<BlockTree blocks={[textFactory()]} />);
   const textEL = screen.getByText(text);
 
   expect(textEL).toBeInTheDocument();
 });
 
-it("should render multi text components", () => {
+it("should render multi Text components", () => {
   render(<BlockTree blocks={[textFactory(), textFactory()]} />);
   const textsEL = screen.getAllByText(text);
   expect(textsEL).length(2);
 });
 
-it("should render box component", () => {
+it("should render Box component", () => {
   render(<BlockTree blocks={[BoxFactory()]} />);
   const textsEL = screen.getAllByText(text);
   expect(textsEL).length(2);
 });
 
-it("should render section component", () => {
+it("should render Section component", () => {
   const { container } = render(<BlockTree blocks={[sectionFactory()]} />);
   const sectionEL = container.querySelector("section");
 
   expect(sectionEL).toBeInTheDocument();
 });
 
-it("should apply maxWidth style for section component", () => {
+it("should add maxWidth for Section component", () => {
   const { container } = render(<BlockTree blocks={[sectionFactory()]} />);
   const sectionEL = container.querySelector("section");
 
   expect(sectionEL).toHaveStyle("max-width: 100px");
 });
 
-it("should render image component with correct src", () => {
+it("should render image component with src", () => {
   const { container } = render(<BlockTree blocks={[ImageFactory()]} />);
-  const {
-    component: {
-      options: { image },
-    },
-  } = ImageFactory();
+  const { image } = ImageFactory().component.options as ImageProps;
 
   const imageEL = container.querySelector("img");
   expect(imageEL).toHaveAttribute("src", image);
 });
 
-it("shouldn't render children for images", () => {
+it("shouldn't render children for Images component", () => {
   render(<BlockTree blocks={[ImageFactory()]} />);
   const textEL = screen.queryByText(text);
 

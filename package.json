@@ -43,9 +43,5 @@
     "vite-tsconfig-paths": "^4.2.0",
     "vitest": "^0.31.1",
     "vitest-dom": "^0.1.0"
-  },
-  "volta": {
-    "node": "16.19.0",
-    "npm": "9.6.6"
   }
 }
