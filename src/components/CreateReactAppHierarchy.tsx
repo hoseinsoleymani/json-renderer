@@ -1,12 +1,17 @@
 import type { ReactAppData } from "../models";
-import { renderer } from "../utils/Renderer";
+import { CreateComponentFromJson } from "../utils/CreateComponentFromJson";
 
 export const CreateReactAppHierarchy = ({
   title,
   blocks,
   url,
 }: ReactAppData) => {
-  const components = renderer({ blocks });
+  const components = CreateComponentFromJson({ blocks });
+  return <div>{components}</div>;
 
-  return <div> {components} </div>;
+  // ========================================
+
+  // return blocks.map((block) => (
+  //   <CreateComponentFromJson key={block.id} block={block} />
+  // ));
 };
